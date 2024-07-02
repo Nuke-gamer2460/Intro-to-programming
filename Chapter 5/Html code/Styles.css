@@ -1,0 +1,38 @@
+a:link {
+    color: black;
+
+}
+a:visited{
+    color:blue(240, 255, 255);
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: crimson;
+    width: 5; 
+    
+}
+li {
+ display:center;
+ float: left;
+}
+
+li a {
+ display: block;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+li:hover{
+    background-color: rgb(107, 107, 107);
+}
+h2{
+    text-align: center;
+}
+p {
+   text-align: center;
+}
