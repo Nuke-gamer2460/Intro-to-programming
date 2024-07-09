@@ -1,0 +1,40 @@
+#car {
+    font-family: Arial;
+  }
+  #body {
+      position: absolute;
+      top: 50px;
+      width: 80%;
+      height: 100px;
+      background-color: #000000;
+      text-align: center;
+  }
+  #backwheel {
+      position: absolute;
+      left: 10%;
+      top: 130px;
+      background-color: #ffffff;
+      border: 3px solid black;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+  }
+  #frontwheel {
+      position: absolute;
+      left: 50%;
+      top: 130px;
+      background-color: #ffffff;
+      border: 3px solid black;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+  }
+  
+   /* #roofTop  {
+    position: absolute;
+        left: 6%;
+        top: 63px;
+        background-colour: #ff7300;
+        border: 3px solid rgb(0,0,0);
+        border-radius
+   } */
