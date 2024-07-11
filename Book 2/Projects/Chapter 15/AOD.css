@@ -1,0 +1,28 @@
+body {
+    font-family: "Comic Sans MS";
+    border-style: solid;
+    padding-bottom: 20px;  
+    background-color: plum;
+  }
+  
+  #buttonBox {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  #thingToDo {
+    margin-top: 20px;
+    background-color: #dadada;
+    text-align: center;
+  }
+
+
+h1{
+    text-align: center;
+    /* text-underline-position: auto; */
+    text-decoration: underline;
+}
+/* #thingsToDo{
+display: block;
+
+} */

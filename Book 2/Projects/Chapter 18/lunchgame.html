@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "lunchgame.css">
+</head>
+<body>
+    
+    <h1>Lunch Game!</h1>
+
+    <div id="instructions">
+        <p>You get a weekly allowance of $<span id="money"></span> to buy lunch. Sandwiches are always between $1 and $5, but you never know the price until you get to school.</p>
+        <p>Your goal is to be able to buy lunch every day of the week.</p>
+    </div>
+    <div id="orderForm">
+        <label>How many sandwiches do you want per day?
+            <br />
+            <input type="number" id="numSandwiches" />
+        </label>
+        <button type="button" id="placeOrder">Place Order</button>
+    </div>
+    <div id="receipt"></div>
+
+<script src = "lunchgame.js"></script>
+
+</body>
+</html>
